@@ -1,0 +1,32 @@
+#banner {
+    position: relative;
+    padding: 50px 0;
+}
+
+#banner .contener {
+    display: flex;
+
+}
+
+#banner h1 {
+    font-weight: 400;
+    font-size: 54px;
+    color: black;
+}
+#banner {
+    font-weight: 14px;
+    font-size: 14px;
+    color: black;
+}
+@media  screen and(max-with:500px) {
+
+#baner .contener {
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+}
+
+
+
+}  
+    

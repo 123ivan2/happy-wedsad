@@ -1,1 +1,15 @@
-<!DOCTPE html       
+    @import "./ui.css";
+    @import "./header.css";
+    @import "./banner.css";
+
+   body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
