@@ -1,0 +1,27 @@
+#numbers {
+    padding: 100px 0;
+    background-color: red;
+}
+
+
+#numbers .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+#numbers  p {
+    font-size: 95px;
+    font-weight: 400;
+}
+
+#narbes .text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 768px) {
+    #numbers .container {}
+}

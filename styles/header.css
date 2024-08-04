@@ -1,4 +1,7 @@
 
+header {
+    box-shadow: 0 0 5px #000;
+}
 
 .header-nav {
     display: flex;
@@ -13,24 +16,27 @@ header .container {
     height: 100px;
 }
 
-header {
-    box-shadow: 0 0 5px #000;
+.burger {
+    display: none;
 }
 
 @media screen and (max-width: 1024px) {
     .header-nav {
         display: none;
     }
-    .burger{
+
+    .burger {
         display: flex;
-        width: 100%;
-        height: 2px;
-        background: #027bed;
+        width: 40px;
+        height: 40px;
+        flex-direction: column;
+        gap: 10px;
     }
-    .burger{
+
+    .burger-line {
         width: 100%;
-        border: 5px;
+        border-radius: 5px;
         height: 3px;
-        background: #027bed;
+        background: #0278ED;
     }
 }

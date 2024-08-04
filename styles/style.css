@@ -1,15 +1,18 @@
-    @import "./ui.css";
-    @import "./header.css";
-    @import "./banner.css";
+@import "./ui.css";
+@import "./header.css";
+@import "./banner.css";
+@import "./features.css";
+@import "./narbers.css";
 
-   body {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    .container {
-        max-width: 80%;
-        margin: 0 auto;
-        padding: 0 30px;
-    }
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
